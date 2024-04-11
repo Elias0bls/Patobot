@@ -2,23 +2,23 @@ import { watchFile, unwatchFile } from 'fs'
 import chalk from 'chalk'
 import { fileURLToPath, pathToFileURL } from 'url'
 
-global.owner = [['593967811592', 'Patobot🦆', true],[593962681710]]
+global.owner = [['51983096511', 'Patobot🦆', true],[51981368587]]
 
 //BETA: Si quiere evitar escribir el número que será bot en la consola, agregué desde aquí entonces:
 //Sólo aplica para opción 2 (ser bot con código de texto de 8 digitos)
-global.botNumberCode = '' //Ejemplo: +59309090909
+global.botNumberCode = '' //Ejemplo: +51983096511
 global.confirmCode = ''
 
-global.animxscans = ['593967811592']
-global.suittag = ['593967811592']
+global.animxscans = ['599346781152']
+global.suittag = ['5938811592']
 global.mods = []
 global.prems = []
 
 global.packname = 'Patobot'
 global.author = ''
-global.wm = '© Patobot🦆'
-global.wm2 = 'Patobot🦆 : 𝗕𝗈𝗍'
-global.azami = 'Axel'
+global.wm = '© Panbot-MD'
+global.wm2 = 'Panbot-MD : 𝗕𝗈𝗍'
+global.azami = 'Elías'
 global.cb = 'Patobot🦆'
 
 global.vs = '1.0.2'
@@ -26,7 +26,7 @@ global.library = 'Baileys'
 global.baileys = '@whiskeysockets/baileys'
 global.lenguaje = 'Español'
 global.menudi = ['⛶','❏','⫹⫺']
-global.dev = '593962681710'
+global.dev = '51983096511'
 
 let file = fileURLToPath(import.meta.url)
 watchFile(file, () => { unwatchFile(file)
